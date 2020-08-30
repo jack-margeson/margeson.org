@@ -1,20 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // Adds the "main" class to the body of the app.
+  document.body.classList.add('main');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
+    <div className="main">
+      <span>Coming... soonish!</span>
     </div>
   );
 }
